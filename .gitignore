@@ -26,5 +26,3 @@ yarn-error.log*
 /.cache
 /.DS_Store
 /dist
-/src
-/public
