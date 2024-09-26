@@ -10,7 +10,7 @@ function createWindow () {
     }
   });
 
-  win.loadURL('http://localhost:3000');  // This loads the React app
+  win.loadFile('index.html');  // This loads the React app
 }
 
 app.whenReady().then(() => {
