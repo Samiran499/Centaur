@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centaur test</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 <body>
     <div class="taskbar" id="taskbar">
@@ -15,7 +17,11 @@
         <div class="tbar">It'll be the taskbar</div>
     </div>
     <div class="widget">
-        <span id="message">We have to focus on backend first &#x1F972</span>
+        <div class="plot" id="alt"></div>
+        <div class="plot" id="temp"></div>
+        <div class="plot" id="gyro"></div>
+        <div class="plot" id="acc"></div>
     </div>
+    <script src="plotting.js"></script>
 </body>
 </html>
