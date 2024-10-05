@@ -26,6 +26,6 @@ app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit();
 });
 
-ipcMain.handle('read-file', async (event, filePath) => {
-  return fs.promises.readFile(filePath, 'utf8');
-});
+// ipcMain.handle('read-file', async (event, filePath) => {
+//   return fs.promises.readFile(filePath, 'utf8');
+// });
