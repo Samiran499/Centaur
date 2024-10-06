@@ -24,6 +24,9 @@ fetch(filePath)
 
         // Layout options
         const layout = {
+            font: {
+                color: 'rgb(255, 255, 255)'
+            },
             title: 'Altitude',
             xaxis: {
                 title: 'Time'
@@ -66,6 +69,9 @@ fetch(filePath)
 
         // Layout options
         const layout = {
+            font: {
+                color: 'rgb(255, 255, 255)'
+            },
             title: 'Temperature',
             xaxis: {
                 title: 'Time'
@@ -127,6 +133,9 @@ fetch(filePath)
 
         // Layout options
         const layout = {
+            font: {
+                color: 'rgb(255, 255, 255)'
+            },
             title: 'Gyrometric Data',
             xaxis: {
                 title: 'Time'
@@ -188,6 +197,9 @@ fetch(filePath)
 
         // Layout options
         const layout = {
+            font: {
+                color: 'rgb(255, 255, 255)'
+            },
             title: 'Accelerometer Data',
             xaxis: {
                 title: 'Time'

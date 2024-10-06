@@ -10,18 +10,22 @@
 </head>
 <body>
     <div class="taskbar" id="taskbar">
-        <div class="tbar">Item 1</div>
-        <div class="tbar">Item 2</div>
-        <div class="tbar">Item 3</div>
-        <div class="tbar">Item 4</div>
-        <div class="tbar">It'll be the taskbar</div>
+        <button class="tbar" id="livebtn">LIVE</button>
+        <button class="tbar" id="post-flightbtn">POST-FLIGHT</button>
     </div>
-    <div class="widget">
+    <div class="plotting" id="live">
+        <div class="plot-live" id="dashboard">dashboard for live altitude, gyrometric and accelerometer data</div>
+        <div class="plot-live" id="geo">dashboard for gps and signal strength, latency etc.</div>
+        <div class="plot-live" id="physical">dashboard for temperature, atmospheric pressure etc.</div>
+        <div class="plot-live" id="msc">miscellaneous</div>
+    </div>
+    <div class="plotting" id="post-flight">
         <div class="plot" id="alt"></div>
         <div class="plot" id="temp"></div>
         <div class="plot" id="gyro"></div>
         <div class="plot" id="acc"></div>
     </div>
     <script src="plotting.js"></script>
+    <script src="tabSwitch.js"></script>
 </body>
 </html>

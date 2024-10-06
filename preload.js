@@ -1,5 +1,5 @@
-const { contextBridge, ipcRenderer } = require('electron');
+// const { contextBridge, ipcRenderer } = require('electron');
 
-contextBridge.exposeInMainWorld('electron', {
-    readFile: (filePath) => ipcRenderer.invoke('read-file', filePath)
-});
+// contextBridge.exposeInMainWorld('electron', {
+//     readFile: (filePath) => ipcRenderer.invoke('read-file', filePath)
+// });
